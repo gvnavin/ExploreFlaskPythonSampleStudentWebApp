@@ -7,6 +7,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:password@localhost/student
 db = SQLAlchemy(app)
 db.init_app(app)
 
+#https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+#https://techarena51.com/blog/flask-sqlalchemy-tutorial/
+
 
 class Student(db.Model):
 
